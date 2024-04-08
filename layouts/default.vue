@@ -1,7 +1,8 @@
 <template>
-  <main class="m-auto flex-1 dark:bg-slate-900">
-    <slot />
-  </main>
-  <Footer />
+  <div class="min-h-dvh dark:bg-slate-900 flex flex-col">
+    <main class="h-full container m-auto">
+      <slot />
+    </main>
+    <Footer />
+  </div>
 </template>
-<style></style>
